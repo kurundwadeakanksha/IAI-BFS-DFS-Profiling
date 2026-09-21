@@ -1,7 +1,7 @@
-Name: Akanksha Amol Kurundwade
-PRN: 25UAM092
-Course: Introduction to Artificial Intelligence
-SLE-2: BFS vs DFS Performance Profiling
+Name: Akanksha Amol Kurundwade<br>
+PRN: 25UAM092<br>
+Course: Introduction to Artificial Intelligence<br>
+SLE-2: BFS vs DFS Performance Profiling<br>
 
 
 Overview
