@@ -112,12 +112,12 @@ Experimental Results
 ----------------------------------------------------------------------------------------------------
 
 Metric	                          BFS	                                     DFS
-Run 1 Time (ms)	               0.014054	                                 0.019412<br>
-Run 2 Time (ms)	               0.013642	                                 0.019668<br>
-Run 3 Time (ms)	               0.013061	                                 0.018913<br>
-Average Time (ms)	             0.013585	                                 0.019331<br>
-Nodes Expanded	                  47	                                      47<br>
-Goal Found	                     True                                     	True<br>
+Run 1 Time (ms)	   =            0.014054	                                 0.019412<br>
+Run 2 Time (ms)	   =           0.013642	                                 0.019668<br>
+Run 3 Time (ms)	   =           0.013061	                                 0.018913<br>
+Average Time (ms)	 =           0.013585	                                 0.019331<br>
+Nodes Expanded	   =              47	                                      47<br>
+Goal Found	       =             True                                     	True<br>
 
 ----------------------------------------------------------------------------------------
 Observation
@@ -138,12 +138,12 @@ The result applies specifically to this graph and implementation. It does not me
 Project Files
 ----------------------------------------------------------------------------------------------------
 File	                                   Description<br>
-1.bfs_dfs.py	                     Contains the graph, BFS implementation, and DFS implementation<br>
-2.benchmark.py	                   Measures BFS and DFS execution time over three experimental runs<br>
-3.profile_search.py	               Runs BFS and DFS repeatedly for profiler observation<br>
-4.profile.svg	                     Flame graph generated using py-spy<br>
-5.README.md	                       Project documentation<br>
-6.gitignore                        Prevents Python cache files from being uploaded<br>
+1.bfs_dfs.py	          =          Contains the graph, BFS implementation, and DFS implementation<br>
+2.benchmark.py	        =        Measures BFS and DFS execution time over three experimental runs<br>
+3.profile_search.py	   =           Runs BFS and DFS repeatedly for profiler observation<br>
+4.profile.svg	          =           Flame graph generated using py-spy<br>
+5.README.md	             =          Project documentation<br>
+6.gitignore               =         Prevents Python cache files from being uploaded<br>
 
 ---------------------------------------------------------------------------------------------
 How to Run
