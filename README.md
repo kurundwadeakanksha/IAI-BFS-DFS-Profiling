@@ -5,6 +5,7 @@ SLE-2: BFS vs DFS Performance Profiling<br>
 
 ---------------------------------------------------------------------------------------------------
 Overview
+----------------------------------------------------------------------------------------------------
 
 This project is part of Self Learning Exercise (SLE-2) for the Introduction to Artificial Intelligence course.
 
@@ -14,21 +15,23 @@ Breadth-First Search (BFS)
 Depth-First Search (DFS)
 
 Both algorithms were tested on the same graph, with the same start node and goal node, to make the comparison fair.
+
+----------------------------------------------------------------------------------------------------Objective
 ----------------------------------------------------------------------------------------------------
-Objective
 
 The main objectives of this SLE-2 experiment are:
 
-1.Implement BFS and DFS.
-2.Run both algorithms on the same graph.
-3.Measure their execution time.
-4.Count the number of nodes expanded.
-5.Run the experiment three times and calculate the average time.
-6.Use py-spy for additional profiling.
-7.Compare the experimental results with the expected behavior of the algorithms.
----------------------------------------------------------------------------------------------------
+1.Implement BFS and DFS.<br>
+2.Run both algorithms on the same graph.<br>
+3.Measure their execution time.<br>
+4.Count the number of nodes expanded.<br>
+5.Run the experiment three times and calculate the average time.<br>
+6.Use py-spy for additional profiling.<br>
+7.Compare the experimental results with the expected behavior of the algorithms.<br>
 
+---------------------------------------------------------------------------------------------------
 Problem Used
+----------------------------------------------------------------------------------------------------
 
 A small graph containing 47 nodes was used for the experiment.
 
@@ -53,7 +56,9 @@ Explore nearby nodes
 Explore next level
   ↓
 Continue until goal is found
+
 ==========================================================================================
+
 2. Depth-First Search (DFS)
 
 DFS explores one branch as deeply as possible before backtracking.
@@ -72,6 +77,8 @@ Backtrack when required
 
 -------------------------------------------------------------------------------------------
 Tools Used
+----------------------------------------------------------------------------------------------------
+
 Python timeit
 
 The timeit module was used to measure the execution time of BFS and DFS.
@@ -101,6 +108,7 @@ The py-spy output is included in this repository as profile.svg.
 
 ------------------------------------------------------------------------------------------
 Experimental Results
+----------------------------------------------------------------------------------------------------
 
 Metric	                          BFS	                                     DFS
 Run 1 Time (ms)	               0.014054	                                 0.019412
@@ -112,6 +120,7 @@ Goal Found	                     True                                     	True
 
 ----------------------------------------------------------------------------------------
 Observation
+----------------------------------------------------------------------------------------------------
 
 For the selected graph and experimental setup, BFS recorded a lower average execution time than DFS.
 
@@ -123,8 +132,10 @@ DFS: 0.019331 ms
 Both algorithms expanded 47 nodes and successfully found the goal node AU.
 
 The result applies specifically to this graph and implementation. It does not mean that BFS will always be faster than DFS for every problem.
+
 ---------------------------------------------------------------------------------------------
 Project Files
+----------------------------------------------------------------------------------------------------
 File	                                   Description
 1.bfs_dfs.py	                         Contains the graph, BFS implementation, and DFS implementation
 2.benchmark.py	                       Measures BFS and DFS execution time over three experimental runs
@@ -135,6 +146,7 @@ File	                                   Description
 
 ---------------------------------------------------------------------------------------------
 How to Run
+----------------------------------------------------------------------------------------------------
 1. Run the BFS/DFS benchmark
 python benchmark.py
 
@@ -151,16 +163,20 @@ python profile_search.py
 py-spy record --output profile.svg -- python profile_search.py
 
 On Windows, if py-spy is not available directly in PATH, the installed executable can be used with its full path.
+
 -----------------------------------------------------------------------------------------------------
 Conclusion
+----------------------------------------------------------------------------------------------------
 
 This experiment demonstrates how theoretical search algorithms can be evaluated using actual performance measurements.
 
 BFS and DFS were tested fairly on the same graph. Execution time and node expansion were recorded, and additional profiling was performed using py-spy.
 
 The experiment helped in understanding the practical use of performance profiling and the importance of using measured data when comparing algorithms.
+
 --------------------------------------------------------------------------------------------------
 AI Contribution
+----------------------------------------------------------------------------------------------------
 
 AI tools were used during this SLE-2 to:
 
