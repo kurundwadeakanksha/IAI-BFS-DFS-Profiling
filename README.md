@@ -16,8 +16,9 @@ Depth-First Search (DFS)
 
 Both algorithms were tested on the same graph, with the same start node and goal node, to make the comparison fair.
 
-----------------------------------------------------------------------------------------------------Objective
-----------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+Objective
+------------------------------------------------------------------------------
 
 The main objectives of this SLE-2 experiment are:
 
@@ -57,7 +58,7 @@ Explore next level
   ↓
 Continue until goal is found
 
-==========================================================================================
+==========================================================
 
 2. Depth-First Search (DFS)
 
@@ -137,12 +138,12 @@ The result applies specifically to this graph and implementation. It does not me
 Project Files
 ----------------------------------------------------------------------------------------------------
 File	                                   Description
-1.bfs_dfs.py	                         Contains the graph, BFS implementation, and DFS implementation
-2.benchmark.py	                       Measures BFS and DFS execution time over three experimental runs
-3.profile_search.py	                   Runs BFS and DFS repeatedly for profiler observation
-4.profile.svg	                         Flame graph generated using py-spy
-5.README.md	                           Project documentation
-6.gitignore                           	Prevents Python cache files from being uploaded
+1.bfs_dfs.py	                     Contains the graph, BFS implementation, and DFS implementation<br>
+2.benchmark.py	                   Measures BFS and DFS execution time over three experimental runs<br>
+3.profile_search.py	               Runs BFS and DFS repeatedly for profiler observation<br>
+4.profile.svg	                     Flame graph generated using py-spy<br>
+5.README.md	                       Project documentation<br>
+6.gitignore                        Prevents Python cache files from being uploaded<br>
 
 ---------------------------------------------------------------------------------------------
 How to Run
