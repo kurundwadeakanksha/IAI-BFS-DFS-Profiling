@@ -3,7 +3,7 @@ PRN: 25UAM092<br>
 Course: Introduction to Artificial Intelligence<br>
 SLE-2: BFS vs DFS Performance Profiling<br>
 
-
+--------------------------------------------------------------------------------------
 Overview
 
 This project is part of Self Learning Exercise (SLE-2) for the Introduction to Artificial Intelligence course.
