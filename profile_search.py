@@ -1,27 +1,39 @@
 from bfs_dfs import graph, bfs, dfs
-import time
 
+START_NODE = 'A'
 
-START = 'A'
-GOAL = 'AU'
+test_cases = {
+    "Best Case": "B",
+    "Average Case": "J",
+    "Worst Case": "AU"
+}
 
-# Run the searches many times so py-spy has enough time
-REPETITIONS = 500000
+# Repeat searches so py-spy has enough time to collect samples
+REPETITIONS = 100000
 
+print("==============================================")
+print(" SLE-2 py-spy PROFILING - CASE ANALYSIS")
+print("==============================================")
 
-print("Starting BFS profiling...")
+for case_name, goal in test_cases.items():
 
-for _ in range(REPETITIONS):
-    bfs(graph, START, GOAL)
+    print("\n----------------------------------------------")
+    print(case_name)
+    print("Goal Node:", goal)
+    print("----------------------------------------------")
 
-print("BFS profiling completed.")
+    print("Running BFS...")
 
+    for _ in range(REPETITIONS):
+        bfs(graph, START_NODE, goal)
 
-print("Starting DFS profiling...")
+    print("BFS completed.")
 
-for _ in range(REPETITIONS):
-    dfs(graph, START, GOAL)
+    print("Running DFS...")
 
-print("DFS profiling completed.")
+    for _ in range(REPETITIONS):
+        dfs(graph, START_NODE, goal)
 
-print("Profiling program finished.")
+    print("DFS completed.")
+
+print("\nProfiling program finished.")
