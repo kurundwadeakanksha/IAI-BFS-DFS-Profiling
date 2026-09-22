@@ -52,7 +52,7 @@ Graph used:
                    |  | | | | | | | | | |  |  |  |  |  |
                   AF AG AH AI AJ AK AL AM AN AO AP AQ AR AS AT AU           
 
-==========================================
+
 Breadth-First Search (BFS)
 BFS explores a graph level by level.
 It uses a queue data structure.
