@@ -39,7 +39,7 @@ Test Cases:<br>
 - Worst Case: AU<br>
 Both BFS and DFS were given the same graph and starting node.
 Graph used:
-
+             
                               A
                            /     \
                           B       C
@@ -48,11 +48,11 @@ Graph used:
                       / \  / \ / \  / \
                      H  I J  K L M N  O
                     / \ / \ / \ / \ / \
-                   P Q R S T U V W X Y Z AA AB AC AD AE
-                   | | | | | | | | | | | |  |  |  |  |  |
-                   AF AG AH AI AJ AK AL AM AN AO AP AQ AR AS AT AU
+                   P  Q R S T U V W X Y Z AA AB AC AD AE
+                   |  | | | | | | | | | |  |  |  |  |  |
+                  AF AG AH AI AJ AK AL AM AN AO AP AQ AR AS AT AU           
 
-==========================================================
+==========================================
 Breadth-First Search (BFS)
 BFS explores a graph level by level.
 It uses a queue data structure.
@@ -65,7 +65,7 @@ Explore next level<br>
 ↓<br>
 Continue until goal is found<br>
 
-==========================================================
+==============================
 
 Depth-First Search (DFS)<br>
 DFS explores one branch as deeply as possible before backtracking.
@@ -81,7 +81,7 @@ Backtrack when required<br>
 
 ------------------------------------
 Tools Used<br>
----------------------------------------
+------------------------------------
 Python timeit
 
 The timeit module was used to measure the execution time of BFS and DFS.
