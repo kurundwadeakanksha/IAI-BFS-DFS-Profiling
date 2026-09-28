@@ -4,7 +4,7 @@
 
 **Name:** Akanksha Amol Kurundwade
 
-**PRN:**25UAM092
+**PRN:** 25UAM092
 
 
 ## Project Title
@@ -28,18 +28,18 @@ The project contains all four C4 levels:
 
 ### Level 1 – Context Diagram
 
-Shows the overall system, user interaction, input, and search result.
+Shows the overall system, user interaction, input, and search result.<br>
 The user provides the search input to the Graph Search System. The system contains the 47-node search tree and performs BFS or DFS to find the goal node. After the search is completed, the system returns the search result to the user.
 
 ### Level 2 – Container Diagram
 
 Shows the major building blocks of the system:
 
-* Input Module = Takes the start node and goal node/search input from the user.
-* Graph Management = Stores and manages the 47-node tree using the graph/adjacency-list representation.
-* Search Engine = Runs the selected BFS or DFS search algorithm.
-* Visited / Memory = Stores already visited nodes to avoid repeated exploration.
-* Output Module = Displays the final search result and search information.
+* Input Module = Takes the start node and goal node/search input from the user.<br>
+* Graph Management = Stores and manages the 47-node tree using the graph/adjacency-list representation.<br>
+* Search Engine = Runs the selected BFS or DFS search algorithm.<br>
+* Visited / Memory = Stores already visited nodes to avoid repeated exploration.<br>
+* Output Module = Displays the final search result and search information.<br>
 
 ### Level 3 – Component Diagram
 
@@ -49,21 +49,21 @@ Shows the internal components of the main **Search Engine** container:
 * DFS
 * Queue
 * Stack
-* Goal Test
+* Goal Test<br>
 The Search Engine contains the two search strategies, BFS and DFS. BFS uses a queue to manage the order of node exploration, while DFS uses a stack. The goal test checks whether the currently processed node is the required goal. This view focuses only on the internal structure of the Search Engine container.
 
 ### Level 4 – Code Overview
 
 Shows the important files, functions, and variables used in the implementation:
 
-bfs_dfs.py – graph:	Stores the 47-node graph using adjacency-list representation.
-bfs_dfs.py – bfs(): Performs Breadth-First Search using a queue.
-bfs_dfs.py – dfs():	Performs Depth-First Search using a stack.
-bfs_dfs.py – visited:	Stores already visited nodes during the search.
-bfs_dfs.py – nodes_expanded:	Counts the nodes explored during the search.
-benchmark.py – measure_bfs():	Measures the average execution time of BFS using timeit.
-benchmark.py – measure_dfs():	Measures the average execution time of DFS using timeit.
-profile_search.py:	Runs repeated BFS/DFS searches for py-spy profiling.
+bfs_dfs.py – graph:	Stores the 47-node graph using adjacency-list representation.<br>
+bfs_dfs.py – bfs(): Performs Breadth-First Search using a queue.<br>
+bfs_dfs.py – dfs():	Performs Depth-First Search using a stack.<br>
+bfs_dfs.py – visited:	Stores already visited nodes during the search.<br>
+bfs_dfs.py – nodes_expanded:	Counts the nodes explored during the search.<br>
+benchmark.py – measure_bfs():	Measures the average execution time of BFS using timeit.<br>
+benchmark.py – measure_dfs():	Measures the average execution time of DFS using timeit.<br>
+profile_search.py:	Runs repeated BFS/DFS searches for py-spy profiling.<br>
 
 
 ## SLE-2 Connection
